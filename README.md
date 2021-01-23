@@ -1,5 +1,6 @@
 # ServerReloadPlugin
 サーバーをkickしてから再起動ができる!
+
 ##導入方法
 serverreload-1.jarをpluginsに入れてください。
 ##使い方
