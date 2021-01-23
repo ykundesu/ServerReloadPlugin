@@ -1,0 +1,13 @@
+name: Serverreload
+version: ${project.version}
+main: jp.yoppykun.serverreload.serverreload.Serverreload
+api-version: 1.16
+authors: [ Yoppykun ]
+description: 高機能なサーバー再起動Plugin!1コマンドで自動でキックから再起動、サーバーストップまでできます!
+website: https://qiita.com/yokingkun
+commands:
+  sreload:
+    description: サーバーを再起動できます!引数でreloadとすると自動reload、stopとすると自動stopします!その後は、kick時のメッセージです!
+    usage: "/<command> reload,stop kickmessage"
+    permission: admin
+    permission-message: §4このコマンドを実行する権限がありません。
